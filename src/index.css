@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,300;0,400;1,300&family=Manrope:wght@300;400;600&display=swap');
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --primary: #3d3832;
+    --secondary: #a68933;
+    --surface: #faf9f6;
+    --on-surface: #2c2824;
+    --on-surface-variant: #5c5750;
+    --surface-container: #f5f2ed;
+    --outline: #8b867e;
+    --outline-variant: #d1ccc4;
+  }
+
+  .dark {
+    --primary: #fdfbf9;
+    --secondary: #d4b563;
+    --surface: #0a0a09;
+    --on-surface: #fdfbf9;
+    --on-surface-variant: #b0aba4;
+    --surface-container: #161513;
+    --outline: #7a756b;
+    --outline-variant: #3d3a36;
+  }
+
+  body {
+    @apply transition-colors duration-300;
+  }
+}
+
+@theme {
+  --font-serif: "Noto Serif", serif;
+  --font-sans: "Manrope", sans-serif;
+
+  --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
+  --color-surface: var(--surface);
+  --color-on-surface: var(--on-surface);
+  --color-on-surface-variant: var(--on-surface-variant);
+  --color-surface-container: var(--surface-container);
+  --color-outline: var(--outline);
+  --color-outline-variant: var(--outline-variant);
+}
+
+@layer base {
+  body {
+    @apply bg-surface text-on-surface font-sans antialiased;
+  }
+  
+  h1, h2, h3, h4, .font-serif {
+    @apply font-serif;
+  }
+}
