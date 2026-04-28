@@ -41,8 +41,8 @@ export default function Home() {
         {/* Background Image Layer */}
         <div className="absolute inset-0 z-0 opacity-100 bg-white">
           <img 
-            className="w-full h-full object-cover transition-all duration-1000 contrast-[1.05] brightness-[1.02]" 
-            src="https://static.vecteezy.com/system/resources/previews/052/083/908/large_2x/beautiful-trendy-glass-perfume-bottle-with-eucalyptus-leaves-productgraphy-on-the-white-background-with-trendy-perfume-bottle-for-ads-banner-mock-ups-free-photo.jpg" 
+            className="w-full h-full object-cover transition-all duration-1000" 
+            src="/src/assets/images/jasmine_bergamot_perfume_1777273489128.png" 
             alt="Artisan Perfume Bottle"
             referrerPolicy="no-referrer"
             loading="eager"
@@ -145,9 +145,9 @@ export default function Home() {
           </div>
           <div className="md:col-span-7">
             <div className="aspect-[16/10] bg-surface-container overflow-hidden border border-outline-variant/10 rounded-sm">
-               <img src="/src/assets/images/jasmine_bergamot_perfume_1777273489128.png" 
-                    alt="Jasmine and Bergamot artisan perfume" 
-                    className="w-full h-full object-cover transition-opacity duration-300"
+               <img src="https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?q=80&w=2653&auto=format&fit=crop" 
+                    alt="Luxury artisan perfume composition" 
+                    className="w-full h-full object-cover grayscale-[0.2] hover:grayscale-0 transition-all duration-700 hover:scale-105"
                     referrerPolicy="no-referrer" />
             </div>
           </div>

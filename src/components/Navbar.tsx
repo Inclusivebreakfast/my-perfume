@@ -17,7 +17,7 @@ export default function Navbar() {
 
   return (
     <nav className="fixed top-0 w-full z-50 flex flex-col items-center px-8 md:px-16 py-6 bg-surface/40 backdrop-blur-sm transition-all duration-300">
-      <Link to="/" className="text-2xl md:text-3xl font-light tracking-[0.4em] text-primary mb-6 hover:opacity-70 transition-opacity">
+      <Link to="/" className="text-xl md:text-3xl font-light tracking-[0.2em] md:tracking-[0.4em] text-primary mb-6 hover:opacity-70 transition-opacity">
         TULIP VERCEL
       </Link>
       
@@ -37,7 +37,7 @@ export default function Navbar() {
         ))}
       </div>
 
-      <div className="absolute right-8 md:right-16 flex items-center gap-6">
+      <div className="absolute right-4 md:right-16 top-4 md:top-10 flex items-center gap-4 md:gap-6">
         <button 
           onClick={toggleTheme}
           className="p-1 hover:scale-110 transition-transform text-primary cursor-pointer"

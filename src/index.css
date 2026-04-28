@@ -29,6 +29,11 @@
   }
 }
 
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 150px;
+}
+
 @theme {
   --font-serif: "Noto Serif", serif;
   --font-sans: "Manrope", sans-serif;
