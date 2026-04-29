@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { motion } from 'motion/react';
-import jasmineBg from '../assets/images/jasmine_bergamot_perfume_1777273489128.png';
+import jasmineBg from '../assets/images/perfume_bg.png';
 
 export default function Home() {
   return (
