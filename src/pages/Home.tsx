@@ -42,7 +42,7 @@ export default function Home() {
         <div className="absolute inset-0 z-0 opacity-100 bg-white">
           <img 
             className="w-full h-full object-cover transition-all duration-1000" 
-            src="/assets/images/perfume_bg.png"
+            src="/perfume_bg.png"
             alt="Artisan Perfume Bottle"
             referrerPolicy="no-referrer"
             loading="eager"
