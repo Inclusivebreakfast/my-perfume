@@ -42,9 +42,9 @@ export default function Home() {
         {/* Background Image Layer */}
         <div className="absolute inset-0 z-0 opacity-100 bg-surface">
           <img 
-            className="w-full h-full object-cover transition-all duration-1000 mix-blend-multiply opacity-95" 
+            className="w-full h-full object-cover transition-all duration-1000 mix-blend-multiply dark:mix-blend-screen opacity-95 dark:opacity-70" 
             src={ASSETS.IMAGES.HOME_HERO}
-            alt="Artisan Perfume Bottle"
+            alt="Artisan Jasmine Perfume"
             referrerPolicy="no-referrer"
             loading="eager"
           />
@@ -84,7 +84,7 @@ export default function Home() {
              transition={{ duration: 1.2, ease: [0.22, 1, 0.36, 1] }}
              className="max-w-2xl px-4"
           >
-            <h1 className="font-serif text-[50px] md:text-[90px] text-black leading-[0.9] tracking-tighter italic">
+            <h1 className="font-serif text-[50px] md:text-[90px] text-on-surface leading-[0.9] tracking-tighter italic">
               THE ESSENCE OF
             </h1>
             <h2 className="font-serif text-[50px] md:text-[90px] leading-[0.9] tracking-tighter mt-2 mb-12 flex flex-wrap">
@@ -101,7 +101,7 @@ export default function Home() {
               </Link>
               <Link 
                 to="/shop" 
-                className="inline-block bg-primary/10 backdrop-blur-md text-white px-8 py-4 text-[11px] font-medium tracking-[0.2em] border border-primary/20 hover:bg-primary hover:text-surface transition-all duration-500 uppercase"
+                className="inline-block bg-primary/10 backdrop-blur-md text-on-surface px-8 py-4 text-[11px] font-medium tracking-[0.2em] border border-primary/20 hover:bg-primary hover:text-surface transition-all duration-500 uppercase"
               >
                 SHOP NOW
               </Link>
