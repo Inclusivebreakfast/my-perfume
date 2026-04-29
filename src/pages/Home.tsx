@@ -40,9 +40,9 @@ export default function Home() {
         </div>
 
         {/* Background Image Layer */}
-        <div className="absolute inset-0 z-0 opacity-100 bg-white">
+        <div className="absolute inset-0 z-0 opacity-100 bg-surface">
           <img 
-            className="w-full h-full object-cover transition-all duration-1000" 
+            className="w-full h-full object-cover transition-all duration-1000 mix-blend-multiply opacity-95" 
             src={ASSETS.IMAGES.HOME_HERO}
             alt="Artisan Perfume Bottle"
             referrerPolicy="no-referrer"

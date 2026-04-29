@@ -5,10 +5,10 @@
   :root {
     --primary: #3d3832;
     --secondary: #a68933;
-    --surface: #faf9f6;
+    --surface: #fdfcf0;
     --on-surface: #2c2824;
     --on-surface-variant: #5c5750;
-    --surface-container: #f5f2ed;
+    --surface-container: #f7f5e8;
     --outline: #8b867e;
     --outline-variant: #d1ccc4;
   }
