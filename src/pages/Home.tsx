@@ -42,7 +42,7 @@ export default function Home() {
         <div className="absolute inset-0 z-0 opacity-100 bg-white">
           <img 
             className="w-full h-full object-cover transition-all duration-1000" 
-            src="https://images.unsplash.com/photo-1594035910387-fea47794261f?q=80&w=2574&auto=format&fit=crop" 
+            src="/src/assets/images/jasmine_bergamot_perfume_1777273489128.png" 
             alt="Artisan Perfume Bottle"
             referrerPolicy="no-referrer"
             loading="eager"
