@@ -40,17 +40,21 @@ export default function Home() {
         </div>
 
         {/* Background Image Layer */}
-        <div className="absolute inset-0 z-0 opacity-100 bg-surface">
+        <div className="absolute inset-0 z-0">
           <img 
-            className="w-full h-full object-cover transition-all duration-1000 mix-blend-multiply dark:mix-blend-screen opacity-95 dark:opacity-70" 
+            className="w-full h-full object-cover transition-all duration-1000 opacity-100 dark:opacity-80" 
             src={ASSETS.IMAGES.HOME_HERO}
             alt="Artisan Jasmine Perfume"
             referrerPolicy="no-referrer"
             loading="eager"
           />
+          {/* Gradient Overlay for Text Readability */}
+          <div className="absolute inset-0 bg-gradient-to-r from-surface/40 via-surface/20 to-transparent z-[5]" />
+          <div className="absolute inset-0 bg-gradient-to-t from-surface/30 to-transparent z-[5]" />
+          
           {/* Scent Mist Animation */}
           <div className="absolute inset-0 z-10 pointer-events-none">
-            {Array.from({ length: 50 }).map((_, i) => (
+            {Array.from({ length: 20 }).map((_, i) => (
               <motion.div
                 key={i}
                 initial={{ 
@@ -60,18 +64,18 @@ export default function Home() {
                   y: "40%" 
                 }}
                 animate={{ 
-                  opacity: [0, 0.6, 0],
-                  scale: [0, Math.random() * 2 + 1, 0.5],
-                  x: `${50 + (Math.random() - 0.5) * 80}%`,
-                  y: `${40 + (Math.random() - 0.5) * 80}%`
+                  opacity: [0, 0.4, 0],
+                  scale: [0, Math.random() * 1.5 + 0.5, 0.2],
+                  x: `${50 + (Math.random() - 0.5) * 60}%`,
+                  y: `${40 + (Math.random() - 0.5) * 60}%`
                 }}
                 transition={{ 
-                  duration: Math.random() * 5 + 3,
+                  duration: Math.random() * 8 + 4,
                   repeat: Infinity,
-                  delay: Math.random() * 5,
-                  ease: "easeOut"
+                  delay: Math.random() * 10,
+                  ease: "easeInOut"
                 }}
-                className="absolute w-1 h-1 bg-white rounded-full blur-[2px]"
+                className="absolute w-1 h-1 bg-white/40 rounded-full blur-[3px]"
               />
             ))}
           </div>
@@ -82,14 +86,14 @@ export default function Home() {
              initial={{ opacity: 0, x: -30 }}
              animate={{ opacity: 1, x: 0 }}
              transition={{ duration: 1.2, ease: [0.22, 1, 0.36, 1] }}
-             className="max-w-2xl px-4"
+             className="max-w-2xl px-4 drop-shadow-2xl"
           >
-            <h1 className="font-serif text-[50px] md:text-[90px] text-on-surface leading-[0.9] tracking-tighter italic">
+            <h1 className="font-serif text-[50px] md:text-[90px] text-on-surface leading-[0.9] tracking-tighter italic drop-shadow-sm bg-clip-text text-transparent bg-gradient-to-br from-on-surface via-on-surface to-on-surface/70">
               THE ESSENCE OF
             </h1>
-            <h2 className="font-serif text-[50px] md:text-[90px] leading-[0.9] tracking-tighter mt-2 mb-12 flex flex-wrap">
-              <span className="text-on-surface-variant font-light italic">REFINE</span>
-              <span className="text-on-surface font-black italic">MENT</span>
+            <h2 className="font-serif text-[50px] md:text-[90px] leading-[0.9] tracking-tighter mt-2 mb-12 flex flex-wrap drop-shadow-sm">
+              <span className="text-on-surface-variant font-light italic bg-clip-text text-transparent bg-gradient-to-br from-on-surface-variant to-on-surface-variant/70">REFINE</span>
+              <span className="text-on-surface font-black italic bg-clip-text text-transparent bg-gradient-to-br from-on-surface via-on-surface to-on-surface/80">MENT</span>
             </h2>
             
             <div className="flex items-center gap-8">
@@ -101,7 +105,7 @@ export default function Home() {
               </Link>
               <Link 
                 to="/shop" 
-                className="inline-block bg-primary/10 backdrop-blur-md text-on-surface px-8 py-4 text-[11px] font-medium tracking-[0.2em] border border-primary/20 hover:bg-primary hover:text-surface transition-all duration-500 uppercase"
+                className="inline-block bg-surface/20 backdrop-blur-xl text-on-surface px-8 py-4 text-[11px] font-medium tracking-[0.2em] border border-primary/30 hover:bg-primary hover:text-surface transition-all duration-500 uppercase shadow-lg"
               >
                 SHOP NOW
               </Link>
@@ -138,7 +142,7 @@ export default function Home() {
         <div className="grid grid-cols-1 md:grid-cols-12 gap-16 items-center">
           <div className="md:col-span-5">
             <span className="text-secondary tracking-[0.4em] uppercase block mb-6 text-[10px] font-semibold">Philosophy</span>
-            <h2 className="text-4xl md:text-5xl font-serif text-on-surface mb-8 leading-tight">Curation of Elements</h2>
+            <h2 className="text-4xl md:text-5xl font-serif text-on-surface mb-8 leading-tight bg-clip-text text-transparent bg-gradient-to-r from-on-surface to-secondary/60">Curation of Elements</h2>
             <p className="text-on-surface-variant max-w-md text-lg font-light leading-relaxed mb-10">
               Each fragrance is a deliberate composition of raw botanical essences, harvested with respect for the lunar cycles and the earth's rhythm.
             </p>
