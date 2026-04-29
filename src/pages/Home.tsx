@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { motion } from 'motion/react';
+import { ASSETS } from '../constants/assets';
 
 export default function Home() {
   return (
@@ -42,7 +43,7 @@ export default function Home() {
         <div className="absolute inset-0 z-0 opacity-100 bg-white">
           <img 
             className="w-full h-full object-cover transition-all duration-1000" 
-            src="/perfume_bg.png"
+            src={ASSETS.IMAGES.HOME_HERO}
             alt="Artisan Perfume Bottle"
             referrerPolicy="no-referrer"
             loading="eager"
@@ -145,7 +146,7 @@ export default function Home() {
           </div>
           <div className="md:col-span-7">
             <div className="aspect-[16/10] bg-surface-container overflow-hidden border border-outline-variant/10 rounded-sm">
-               <img src="https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?q=80&w=2653&auto=format&fit=crop" 
+               <img src={ASSETS.IMAGES.PHILOSOPHY} 
                     alt="Luxury artisan perfume composition" 
                     className="w-full h-full object-cover grayscale-[0.2] hover:grayscale-0 transition-all duration-700 hover:scale-105"
                     referrerPolicy="no-referrer" />
