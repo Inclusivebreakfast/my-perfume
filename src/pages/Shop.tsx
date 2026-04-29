@@ -235,7 +235,7 @@ export default function Shop() {
                   className="group flex flex-col"
                 >
                   <div 
-                    className="relative aspect-[3/4] overflow-hidden bg-surface-container cursor-pointer border border-outline-variant/10 rounded-sm"
+                    className="relative aspect-[3/4] overflow-hidden bg-white cursor-pointer border border-outline-variant/10 rounded-sm shadow-sm"
                     onClick={() => setSelectedProduct(product)}
                   >
                     <img
@@ -288,7 +288,7 @@ export default function Shop() {
             </button>
             
             <div className="flex flex-col md:flex-row">
-              <div className="md:w-1/2 bg-surface-container aspect-[3/4] md:aspect-auto">
+              <div className="md:w-1/2 bg-white aspect-[3/4] md:aspect-auto">
                 <img
                   src={selectedProduct.image}
                   alt={selectedProduct.name}

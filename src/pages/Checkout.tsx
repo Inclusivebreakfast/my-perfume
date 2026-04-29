@@ -107,7 +107,7 @@ export default function Checkout() {
             ) : (
               cart.map((item) => (
                 <div key={item.id} className="flex gap-4 items-center">
-                  <img src={item.image} alt={item.name} className="w-16 h-20 object-contain bg-surface-container dark:mix-blend-normal mix-blend-multiply p-2" />
+                  <img src={item.image} alt={item.name} className="w-16 h-20 object-contain bg-white p-2 rounded-sm shadow-sm" />
                   <div className="flex-grow">
                     <h3 className="text-sm font-medium text-on-surface">{item.name}</h3>
                     <p className="text-xs text-on-surface-variant">{item.price} Birr</p>
