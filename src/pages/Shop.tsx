@@ -321,7 +321,7 @@ export default function Shop() {
           >
             <button
               onClick={() => setSelectedProduct(null)}
-              className="absolute top-8 right-8 text-2xl font-light hover:rotate-90 transition-transform z-10 text-on-surface"
+              className="absolute top-8 right-8 text-2xl font-light hover:rotate-90 transition-transform z-10 text-on-surface-variant"
             >
               ✕
             </button>
