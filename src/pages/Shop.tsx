@@ -122,8 +122,47 @@ const INITIAL_PRODUCTS: Product[] = [
     image: "https://imgs.search.brave.com/1JwjaFDJJDGOjlK3FZUppN36AyRMjW4JnCY7Dz4eH2Q/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/Y2hhbmVsLmNvbS9w/dWxzLWltZy8xNzM5/MjA1MDExODM4LW9u/ZXBscGhlcm9iYW5u/ZXJtb2JpbGUxOTIw/eDIwNDhweDFqcGdf/MjA0OHgxOTIwLmpw/Zw",
     description: "Best Ladies Perfume of The Year. Amazing Fragrance.",
     fullDescription: "🧖♀ CHANEL\n🌬 COCO \n😍 Best Ladies Perfume of The Year\n🪄 100Ml\n🪄 PERFUME \n🪄For Her / Ladies\n🪄Amazing Fragrance \n🪄 Packed\n🗼 PARIS🗼\n⚡️FREE DELIVERY"
-  }
-];
+  },
+  {
+    id: 'womens-gift-set',
+    name: "Women’s Gifts Set ✨",
+    category: "FOR HER",
+    size: "SET",
+    price: 8899,
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3_IjokriguSgK7XLp8KdqSwQ4aiyh33i34HAusB43sx3Gl2cl",
+    description: "A fragrance made for confident, modern women. Fresh, elegant, and long-lasting.",
+    fullDescription: "💖 Women’s Gifts Set ✨\n💖 A fragrance made for confident, modern women\n💖 Fresh, elegant, and long-lasting scent\n📦 What’s inside:\n✔️ 1 Full-size perfume\n✔️ 2 travel-size sprays (easy to carry everywhere)\n💖 A perfect for daily wear or special moments\n🎁 Perfect gift for her 🎁\n⚡️ FREE DELIVERY"
+  },
+  {
+    id: 'versace-eros-pour-femme',
+    name: "Versace Eros Pour Femme",
+    category: "FOR HER",
+    size: "100ML",
+    price: 6499,
+    image: "https://imgs.search.brave.com/ofs6ml1rkX5awyxtsp6EccKkp_BlqaDYv8gFl4Wai40/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJhZ3JhbmNleC5j/b20vaW1hZ2VzL3By/b2R1Y3RzL3NrdS9s/YXJnZS92ZXBmMTdw/cy5qcGc",
+    description: "One of the Best Women's Perfume of The Year. Amazing Fragrance.",
+    fullDescription: "💠 VERSACE 💠\n🔥Eros 🔥\n😍 One of the Best Women's Perfume of The Year\n🪄 100Ml\n🪄 Pour Femme (የሴቶች ሽቶ )\n🐇 Long Lasting (ለረጅም ጊዜ የሚቆይ )\n🪄Amazing Fragrance \n🪄 PRICE :-6499 BIRR\n⚡️FREE DELIVERY"
+  },
+  {
+    id: 'giorgio-armani-si',
+    name: "Giorgio Armani Si",
+    category: "FOR HER",
+    size: "100ML",
+    price: 6399,
+    image: "https://imgs.search.brave.com/zwF5ILZ1xvjnzPGxPH9HcKmG1v3pR45ll07QSSWU9L8/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pLmVi/YXlpbWcuY29tL2lt/YWdlcy9nL0ZtZ0FB/T1N3Ui1wbWtIeVEv/cy1sMjI1LmpwZw",
+    description: "Amazing Fragrance. For Her / Ladies.",
+    fullDescription: "✨ Giorgio Armani\n🌬 Si\n✨ 100Ml\n✨ PERFUME\n✨ For Her / Ladies\n✨ Amazing Fragrance\n✨ Packed\n🗼 PARIS🗼\n⚡️FREE DELIVERY \n🌟 Price :- 6399 Birr"
+  },
+  {
+    id: 'lattafa-eclaire',
+    name: "Lattafa Éclaire Perfume",
+    category: "FOR HER",
+    size: "100ML",
+    price: 3999,
+    image: "https://imgs.search.brave.com/rcX35QyCckP6feQbvf5nTxyRNUwqtTAUVJqUBC7eKRc/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9jZG4u/bm90aW5vaW1nLmNv/bS9kZXRhaWxfbWFp/bl9scS9sYXR0YWZh/LzYyOTAzNjIzNDA2/MzhfMDMtby9lY2xh/aXJlX19fMjUxMTI1/LmpwZw",
+    description: "Sweet, soft, and long-lasting scent. Vanilla • Caramel • Creamy vibes.",
+    fullDescription: "✨ Lattafa Éclaire Perfume ✨\n💖 Sweet, soft, and long-lasting scent\n🍦 Vanilla • Caramel • Creamy vibes\n☪️  Perfect for everyday & special moments\n☪️ Gets you compliments\n💎 100ml\n🚚 Free Delivery available\n🪼 Price 3999 Birr"
+  }];
 
 export default function Shop() {
   const { addToCart } = useCart();
