@@ -26,7 +26,7 @@ export default function Navbar() {
           <Link
             key={link.path}
             to={link.path}
-            className={`font-sans text-[10px] md:text-[11px] tracking-[0.25em] font-medium uppercase transition-colors duration-500 pb-1 ${
+            className={`font-sans text-[10px] md:text-[14px] tracking-[0.25em] font-medium uppercase transition-colors duration-500 pb-1 ${
               location.pathname === link.path 
                 ? 'text-primary border-b border-primary/40' 
                 : 'text-on-surface-variant hover:text-primary'
@@ -43,11 +43,15 @@ export default function Navbar() {
           className="p-1 hover:scale-110 transition-transform text-primary cursor-pointer"
           aria-label="Toggle Theme"
         >
-          {theme === 'light' ? <Moon size={18} strokeWidth={1.5} /> : <Sun size={18} strokeWidth={1.5} />}
+          {theme === 'light' ? (
+            <Moon className="w-[18px] h-[18px] md:w-[27px] md:h-[27px]" strokeWidth={1.5} />
+          ) : (
+            <Sun className="w-[18px] h-[18px] md:w-[27px] md:h-[27px]" strokeWidth={1.5} />
+          )}
         </button>
 
         <Link to="/checkout" className="cursor-pointer relative hover:scale-110 transition-transform text-primary">
-          <ShoppingBag size={18} strokeWidth={1} />
+          <ShoppingBag className="w-[18px] h-[18px] md:w-[27px] md:h-[27px]" strokeWidth={1} />
           {cartCount > 0 && (
             <span className="absolute -top-1.5 -right-1.5 bg-secondary text-white text-[7px] w-3.5 h-3.5 flex items-center justify-center rounded-full font-bold">
               {cartCount}
