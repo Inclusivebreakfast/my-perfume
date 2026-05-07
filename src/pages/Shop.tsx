@@ -8,7 +8,7 @@ const INITIAL_PRODUCTS: Product[] = [
     name: "Emporio Armani Stronger With You INTENSELY",
     category: "FOR HIM",
     size: "100ML",
-    price: 6599,
+    price: 6199,
     image: "https://imgs.search.brave.com/V7hu3mqfFyFMpv8DyxSFBZeR2irDO1G_QvaLZah95Q0/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9wcmV2/aWV3LnJlZGQuaXQv/YXJtYW5pLXN0cm9u/Z2VyLXdpdGgteW91/LWludGVuc2VseS12/MC13cDY0d3Rjbmpm/MWIxLmpwZz93aWR0/aD0xNTAwJmZvcm1h/dD1wanBnJmF1dG89/d2VicCZzPTBlOTIz/YjZkY2IzYjA1MmFk/NzIxZTg3MGNhM2Jk/NmEwYjYzOTY4Zjk",
     description: "One of the Best Men's Perfume of The Year. Intense and amazing.",
     fullDescription: "💪🏽 Emporio Armani💪🏽\n💪🏽 Stronger With You 💪🏽\n📌 INTENSELY 📌\n🔥 One of the Best Men's Perfume of The Year\n💪🏽 100Ml\n💪🏽 PERFUME \n💪🏽 For Him/ Gentlemen's \n💪🏽 Amazing Fragrance \n💪🏽 Packed\n⚡️FREE DELIVERY"
@@ -18,7 +18,7 @@ const INITIAL_PRODUCTS: Product[] = [
     name: "YSL MYSLF – Eau De Parfum",
     category: "FOR MEN",
     size: "100ML",
-    price: 6499,
+    price: 6099,
     image: "https://imgs.search.brave.com/mENO7bMvVd5cfFTi-zxVz8UYUcsK_NCtWbC-SKz2xro/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NjFkLVk5RnRNcUwu/anBn",
     description: "One of the Best Men's Perfume of The Year. Intense and amazing.",
     fullDescription: "⭐️ YSL MYSLF\n🍄 One Best Men's Perfume of The Year\n🍄 100Ml Eau De Parfum\n🍄 For Men / Gentlemen's\n🍄 Amazing Fragrance\n🍄 Packed\n⚡️FREE DELIVERY"
@@ -28,7 +28,7 @@ const INITIAL_PRODUCTS: Product[] = [
     name: "VERSACE MAN",
     category: "FOR MEN",
     size: "100ML",
-    price: 6499,
+    price: 6099,
     image: "https://imgs.search.brave.com/reHHG09Wj3Qsug2MCeXGanEggHyfI60lIRSrEIcw6L4/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJhZ3JhbmNleC5j/b20vaW1hZ2VzL3By/b2R1Y3RzL3NrdS9s/YXJnZS92ZWZtMTcu/anBn",
     description: "Amazing fragrance for gentlemen. Intense and sophisticated.",
     fullDescription: "💎 VERSACE 💎\n💎 MAN 💎\n🔱 100Ml\n🔱 PERFUME \n🔱 For Men/ Gentlemen's \n🔱 Amazing Fragrance\n📿 Packed\n⚡️FREE DELIVERY"
@@ -38,7 +38,7 @@ const INITIAL_PRODUCTS: Product[] = [
     name: "LANCOME La Vie Est Belle",
     category: "FOR HER",
     size: "75ML",
-    price: 6499,
+    price: 6099,
     image: "https://imgs.search.brave.com/ndvwFMdYJDHMMee7WjPZuFTxm8euWHkd0kCDpWcy5Ug/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9zY2Vu/dGZpZS5jb20vd3At/Y29udGVudC91cGxv/YWRzLzIwMTgvMTAv/TGFuY29tZS1MYS12/aWUtZXN0LWJlbGxl/LTc1bWwtTGVhdS1k/ZS1QYXJmdW0uanBn/LndlYnA",
     description: "Amazing Fragrance. Life is beautiful.",
     fullDescription: "🍷LANCOME 🍷\n🍷La Vie Est Belle(Life Is Beautiful) \n🍷 75Ml \n🍷 PERFUME \n🍷 For Her/ Ladies\n🍷 Amazing Fragrance \n🍷 Packed\n⚡️FREE DELIVERY"
@@ -48,7 +48,7 @@ const INITIAL_PRODUCTS: Product[] = [
     name: "DELINA EXCLUSIF",
     category: "FOR HER",
     size: "75ML",
-    price: 6599,
+    price: 6199,
     image: "https://imgs.search.brave.com/m4ieCW7mlDMQS4ljaN0NO3AgzsOD47QnyoPhFpxe_PE/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9wZXJm/dW1lZ2guY29tL3dw/LWNvbnRlbnQvdXBs/b2Fkcy8yMDIzLzA0/LzcxSENFWEFpbXBM/Ll9BQ19VRjg5NDEw/MDBfUUw4MF8uanBn",
     description: "Amazing Fragrance. Edition Royale.",
     fullDescription: "🦋 DELINA EXCLUSIF🦋\n🦋 Extion Royale \n🦋 75 Ml \n🦋 PERFUME \n🦋 For Her/ Ladies\n🦋 Amazing Fragrance \n🦋 Packed\n⚡️FREE DELIVERY"
@@ -58,7 +58,7 @@ const INITIAL_PRODUCTS: Product[] = [
     name: "AFNAN 9PM For Men – Eau De Parfum",
     category: "FOR MEN",
     size: "100ML",
-    price: 5499,
+    price: 5099,
     image: "https://imgs.search.brave.com/6FYDo_Jn_q3DGwK2yTFeQDRAkU6QQm1fLWhqisnFTJc/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pLmVi/YXlpbWcuY29tL2lt/YWdlcy9nL2EwZ0FB/ZVN3bUpwb09UbDkv/cy1sMjI1LmpwZw",
     description: "Bold, addictive & deeply masculine scent. Powerful evening fragrance.",
     fullDescription: "♟️ 9PM For Men – Eau De Parfum (100ml)\n♟️ Bold, addictive & deeply masculine scent\n♟️ Opens with fresh notes of bergamot & cinnamon\n♟️ Transforms into elegant orange blossom\n♟️ Warms down with rich amber, vanilla & patchouli\n♟️ Long-lasting & powerful evening fragrance\n♟️ Perfect for date nights & special occasions\n♟️ Quality Guaranteed ✅\n♟️ For all skin types\n⚡️FREE DELIVERY"
@@ -68,7 +68,7 @@ const INITIAL_PRODUCTS: Product[] = [
     name: "Victoria's Secret BOMBSHELL",
     category: "FOR HER",
     size: "100ML",
-    price: 6499,
+    price: 6099,
     image: "https://hulugram-prod.fra1.cdn.digitaloceanspaces.com/media/uploads/2025/11/20/c984c147-8312-4521-aeca-2d8266f94576.jpg",
     description: "Amazing Fragrance. Confident and glamorous.",
     fullDescription: "🦋 Victoria's Secret 🦋\n🦋 BOMBSHELL \n🦋 100Ml\n🦋 PERFUME \n🦋 For Her/ Ladies\n🦋 Amazing Fragrance \n🦋 Packed\n⚡️FREE DELIVERY"
@@ -78,7 +78,7 @@ const INITIAL_PRODUCTS: Product[] = [
     name: "Mini Diamond Collection Set",
     category: "ALL",
     size: "6×10ML",
-    price: 10500,
+    price: 10100,
     image: "https://imgs.search.brave.com/YGcbzrvb9u3gQBVsHfBhvVvmLSiyJxuBqRLSLYXvyEs/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tZWRp/YS56aWQuc3RvcmUv/dGh1bWJzL2JmYWEz/NDU0LTBlOTAtNGY5/MS05MWM3LWJlNGNi/MTc1MmFjOC84ZGYz/ZjFlOC03MjYwLTRk/NjktYjE2Yi04OWFi/ODlmNTRiYzItdGh1/bWJuYWlsLTUwMHg1/MDAucG5n",
     description: "Luxury 6×10ML Perfume Set. Perfect for gifting.",
     fullDescription: "💎 Mini Diamond Collection – 6×10ML Perfume Set\n✨ Discover luxury in every spray.\n🎁 Perfect for gifting or trying out premium scents.\n🌟 Collection Includes:\n▪️ Black Carbon Diamond\n▪️ Emerald Soul Diamond\n▪️ Gray Pearl Diamond\n▪️ White Regent Diamond\n▪️ Purple Heart Diamond\n▪️ Nude Coral Diamond\n💼 Stylish, portable, and irresistible.\n⚡️ FREE DELIVERY"
@@ -88,7 +88,7 @@ const INITIAL_PRODUCTS: Product[] = [
     name: "Valentino Born in Roma",
     category: "FOR HER",
     size: "100ML",
-    price: 6199,
+    price: 5799,
     image: "https://imgs.search.brave.com/0m_HesIgU3snskdWffolzF6C_dkjG4WpZA6WvnOht38/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NzFRc3dnSnRpU0wu/anBn",
     description: "Perfect for a confident woman. Romantic Bulgarian rose.",
     fullDescription: "👠Valentino 👠\n👠 For Women \n👠 Perfect for a confident woman\n👠 Made up of Bulgarian rose, which adds a touch of romance.\n👠 Perfect for a night out on the town or a special occasion.\n👠 Made and Born in Roma/ Italy 🇮🇹\n⚡️FREE DELIVERY"
@@ -98,7 +98,7 @@ const INITIAL_PRODUCTS: Product[] = [
     name: "Emporio Armani Stronger With You ABSOLUTELY",
     category: "FOR HIM",
     size: "100ML",
-    price: 6499,
+    price: 6099,
     image: "https://imgs.search.brave.com/bNyrw3zs-MyX7s1oyMMarxdCFz1rzkCMc9Up3rK7Bog/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9hc3Nl/dHMtY2YuYXJtYW5p/LmNvbS9pbWFnZS91/cGxvYWQvZl9hdXRv/LHFfYXV0bzpnb29k/LHdfMTEyNSxoXzE0/MjgsY19maWxsL3Yx/NzY4MjQ0ODgzL0xH/MjA4NDAwX05MUF81/ME1MX0RfRlcyMDI1/LmpwZw",
     description: "One of the Best Men's Perfume of The Year. Absolute intensity.",
     fullDescription: "💪🏽 Emporio Armani💪🏽\n💪🏽 Stronger With You 💪🏽\n📌 ABSOLUTELY 📌\n🔥 One of the Best Men's Perfume of The Year\n💪🏽 100Ml\n💪🏽 PERFUME \n💪🏽 For Him/ Gentlemen's \n💪🏽 Amazing Fragrance \n💪🏽 Packed\n⚡️FREE DELIVERY"
@@ -108,7 +108,7 @@ const INITIAL_PRODUCTS: Product[] = [
     name: "BURBERRY MY",
     category: "FOR HER",
     size: "90ML",
-    price: 6199,
+    price: 5799,
     image: "https://imgs.search.brave.com/UgOSvgc3aqJa2ySKzNDY6GBzTisBVbERa_KiHPUYtRI/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJhZ3JhbmNleC5j/b20vaW1hZ2VzL3By/b2R1Y3RzL3NrdS9z/bWFsbC84MDQzMG0u/anBn",
     description: "Amazing Fragrance for Her.",
     fullDescription: "🎠🎠 BURBERRY  🎠🎠\n🎠 MY\n🎠 90 Ml\n🎠 PERFUME \n🎠 For Her / Ladies\n🎠 Amazing Fragrance \n🎠 Packed\n⚡️FREE DELIVERY"
@@ -118,7 +118,7 @@ const INITIAL_PRODUCTS: Product[] = [
     name: "CHANEL COCO",
     category: "FOR HER",
     size: "100ML",
-    price: 6499,
+    price: 6099,
     image: "https://imgs.search.brave.com/1JwjaFDJJDGOjlK3FZUppN36AyRMjW4JnCY7Dz4eH2Q/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/Y2hhbmVsLmNvbS9w/dWxzLWltZy8xNzM5/MjA1MDExODM4LW9u/ZXBscGhlcm9iYW5u/ZXJtb2JpbGUxOTIw/eDIwNDhweDFqcGdf/MjA0OHgxOTIwLmpw/Zw",
     description: "Best Ladies Perfume of The Year. Amazing Fragrance.",
     fullDescription: "🧖♀ CHANEL\n🌬 COCO \n😍 Best Ladies Perfume of The Year\n🪄 100Ml\n🪄 PERFUME \n🪄For Her / Ladies\n🪄Amazing Fragrance \n🪄 Packed\n🗼 PARIS🗼\n⚡️FREE DELIVERY"
@@ -128,7 +128,7 @@ const INITIAL_PRODUCTS: Product[] = [
     name: "Women’s Gifts Set ✨",
     category: "FOR HER",
     size: "SET",
-    price: 8899,
+    price: 8499,
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3_IjokriguSgK7XLp8KdqSwQ4aiyh33i34HAusB43sx3Gl2cl",
     description: "A fragrance made for confident, modern women. Fresh, elegant, and long-lasting.",
     fullDescription: "💖 Women’s Gifts Set ✨\n💖 A fragrance made for confident, modern women\n💖 Fresh, elegant, and long-lasting scent\n📦 What’s inside:\n✔️ 1 Full-size perfume\n✔️ 2 travel-size sprays (easy to carry everywhere)\n💖 A perfect for daily wear or special moments\n🎁 Perfect gift for her 🎁\n⚡️ FREE DELIVERY"
@@ -138,30 +138,30 @@ const INITIAL_PRODUCTS: Product[] = [
     name: "Versace Eros Pour Femme",
     category: "FOR HER",
     size: "100ML",
-    price: 6499,
+    price: 6099,
     image: "https://imgs.search.brave.com/ofs6ml1rkX5awyxtsp6EccKkp_BlqaDYv8gFl4Wai40/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJhZ3JhbmNleC5j/b20vaW1hZ2VzL3By/b2R1Y3RzL3NrdS9s/YXJnZS92ZXBmMTdw/cy5qcGc",
     description: "One of the Best Women's Perfume of The Year. Amazing Fragrance.",
-    fullDescription: "💠 VERSACE 💠\n🔥Eros 🔥\n😍 One of the Best Women's Perfume of The Year\n🪄 100Ml\n🪄 Pour Femme (የሴቶች ሽቶ )\n🐇 Long Lasting (ለረጅም ጊዜ የሚቆይ )\n🪄Amazing Fragrance \n🪄 PRICE :-6499 BIRR\n⚡️FREE DELIVERY"
+    fullDescription: "💠 VERSACE 💠\n🔥Eros 🔥\n😍 One of the Best Women's Perfume of The Year\n🪄 100Ml\n🪄 Pour Femme (የሴቶች ሽቶ )\n🐇 Long Lasting (ለረጅም ጊዜ የሚቆይ )\n🪄Amazing Fragrance \n🪄 PRICE :-6099 BIRR\n⚡️FREE DELIVERY"
   },
   {
     id: 'giorgio-armani-si',
     name: "Giorgio Armani Si",
     category: "FOR HER",
     size: "100ML",
-    price: 6399,
+    price: 5999,
     image: "https://imgs.search.brave.com/zwF5ILZ1xvjnzPGxPH9HcKmG1v3pR45ll07QSSWU9L8/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pLmVi/YXlpbWcuY29tL2lt/YWdlcy9nL0ZtZ0FB/T1N3Ui1wbWtIeVEv/cy1sMjI1LmpwZw",
     description: "Amazing Fragrance. For Her / Ladies.",
-    fullDescription: "✨ Giorgio Armani\n🌬 Si\n✨ 100Ml\n✨ PERFUME\n✨ For Her / Ladies\n✨ Amazing Fragrance\n✨ Packed\n🗼 PARIS🗼\n⚡️FREE DELIVERY \n🌟 Price :- 6399 Birr"
+    fullDescription: "✨ Giorgio Armani\n🌬 Si\n✨ 100Ml\n✨ PERFUME\n✨ For Her / Ladies\n✨ Amazing Fragrance\n✨ Packed\n🗼 PARIS🗼\n⚡️FREE DELIVERY \n🌟 Price :- 5999 Birr"
   },
   {
     id: 'lattafa-eclaire',
     name: "Lattafa Éclaire Perfume",
     category: "FOR HER",
     size: "100ML",
-    price: 3999,
+    price: 3599,
     image: "https://imgs.search.brave.com/rcX35QyCckP6feQbvf5nTxyRNUwqtTAUVJqUBC7eKRc/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9jZG4u/bm90aW5vaW1nLmNv/bS9kZXRhaWxfbWFp/bl9scS9sYXR0YWZh/LzYyOTAzNjIzNDA2/MzhfMDMtby9lY2xh/aXJlX19fMjUxMTI1/LmpwZw",
     description: "Sweet, soft, and long-lasting scent. Vanilla • Caramel • Creamy vibes.",
-    fullDescription: "✨ Lattafa Éclaire Perfume ✨\n💖 Sweet, soft, and long-lasting scent\n🍦 Vanilla • Caramel • Creamy vibes\n☪️  Perfect for everyday & special moments\n☪️ Gets you compliments\n💎 100ml\n🚚 Free Delivery available\n🪼 Price 3999 Birr"
+    fullDescription: "✨ Lattafa Éclaire Perfume ✨\n💖 Sweet, soft, and long-lasting scent\n🍦 Vanilla • Caramel • Creamy vibes\n☪️  Perfect for everyday & special moments\n☪️ Gets you compliments\n💎 100ml\n🚚 Free Delivery available\n🪼 Price 3599 Birr"
   }];
 
 export default function Shop() {
@@ -274,7 +274,7 @@ export default function Shop() {
                   className="group flex flex-col"
                 >
                   <div 
-                    className="relative aspect-[3/4] overflow-hidden bg-white cursor-pointer border border-outline-variant/10 rounded-sm shadow-sm"
+                    className="relative aspect-[3/4] overflow-hidden bg-surface-container cursor-pointer border border-outline-variant/10 rounded-sm shadow-sm"
                     onClick={() => setSelectedProduct(product)}
                   >
                     <img
@@ -327,7 +327,7 @@ export default function Shop() {
             </button>
             
             <div className="flex flex-col md:flex-row">
-              <div className="md:w-1/2 bg-white aspect-[3/4] md:aspect-auto">
+              <div className="md:w-1/2 bg-surface-container aspect-[3/4] md:aspect-auto">
                 <img
                   src={selectedProduct.image}
                   alt={selectedProduct.name}
