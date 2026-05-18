@@ -162,6 +162,96 @@ const INITIAL_PRODUCTS: Product[] = [
     image: "https://imgs.search.brave.com/rcX35QyCckP6feQbvf5nTxyRNUwqtTAUVJqUBC7eKRc/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9jZG4u/bm90aW5vaW1nLmNv/bS9kZXRhaWxfbWFp/bl9scS9sYXR0YWZh/LzYyOTAzNjIzNDA2/MzhfMDMtby9lY2xh/aXJlX19fMjUxMTI1/LmpwZw",
     description: "Sweet, soft, and long-lasting scent. Vanilla • Caramel • Creamy vibes.",
     fullDescription: "✨ Lattafa Éclaire Perfume ✨\n💖 Sweet, soft, and long-lasting scent\n🍦 Vanilla • Caramel • Creamy vibes\n☪️  Perfect for everyday & special moments\n☪️ Gets you compliments\n💎 100ml\n🚚 Free Delivery available\n🪼 Price 3599 Birr"
+  },
+  {
+    id: 'prada-paradoxe',
+    name: "PRADA PARADOXE",
+    category: "FOR HER",
+    size: "100ML",
+    price: 6199,
+    image: "https://imgs.search.brave.com/UCjfpFtmhJq4EGjSGxm5718S6VeCys5aDOI7eksG3Ek/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMtbmEuc3NsLWlt/YWdlcy1hbWF6b24u/Y29tL2ltYWdlcy9J/LzQxN09hZjNidGhM/LmpwZw",
+    description: "Amazing Fragrance. High Class Society. For Her / Ladies.",
+    fullDescription: "🎲 PRADA\n🎲 PARADOXE\n🎲 100 Ml\n🎲 PERFUME (ሽቶ)\n✨ For Her/ Ladies (የሴቶች ሽቶ)\n🎲 Amazing Fragrance \n💥 High Class Society \n🎲 Packed\n⚡️FREE DELIVERY (ቤትዎ ድረስ በነፃ እናደርሳለን) \n🎲 PRICE :- 6199 BIRR"
+  },
+  {
+    id: 'carolina-herrera-212-sexy',
+    name: "Carolina Herrera 212 SEXY",
+    category: "FOR HER",
+    size: "100ML",
+    price: 6199,
+    image: "https://imgs.search.brave.com/EenJcuhKHmYujHBmJEDmji4oEiVbJot1BguHm4U_IQI/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/ZnJhZ3JhbmNlb3V0/bGV0LmNvbS9jZG4v/c2hvcC9wcm9kdWN0/cy9DYXJvbGluYS1I/ZXJyZXJhLTIxMi1T/ZXh5LVdvbWVucy1F/YXUtZGUtUGFyZnVt/ZS1TcHJheS0yLUJl/c3QtUHJpY2UtRnJh/Z3JhbmNlLVBhcmZ1/bWUtRnJhZ3JhbmNl/T3V0bGV0LmNvbS1E/ZXRhaWxzLmpwZWc_/dj0xNjYwNzU0NzMz/JndpZHRoPTE5NDY",
+    description: "Amazing Fragrance. For Her / Ladies.",
+    fullDescription: "🧩 Carolina Herrera \n🍷212 SEXY\n🍷 100 Ml \n🍷 PERFUME (ሽቶ)\n🍷 For Her/ Ladies (የሴቶች ሽቶ)\n🍷 Amazing Fragrance \n🍷 Packed\n⚡️FREE DELIVERY (ቤትዎ ድረስ በነፃ እናደርሳለን) \n🍷 Price 6199"
+  },
+  {
+    id: 'creed-aventus',
+    name: "CREED Aventus",
+    category: "FOR HIM",
+    size: "120ML",
+    price: 6399,
+    image: "https://imgs.search.brave.com/NDp3pVFstiUNgjitJN2Xwon4-mGc5CzigTEYyVM36fA/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pLmVi/YXlpbWcuY29tL2lt/YWdlcy9nL2hVUUFB/ZVN3OG9ocUE2VHQv/cy1sNDAwLndlYnA",
+    description: "Amazing Fragrance. For Men/ Gentleman.",
+    fullDescription: "⭐️ CREED \n😍  Aventus\n🪄 120Ml\n🪄 PERFUME (ሽቶ)\n🪄For Men/ Gentleman (የወንዶች ሽቶ)\n🪄Amazing Fragrance \n🪄 Packed\n🪄 PRICE :- 6399 BIRR\n⚡️FREE DELIVERY (ቤትዎ ድረስ በነፃ እናደርሳለን)"
+  },
+  {
+    id: 'tom-ford-ombre-leather',
+    name: "TOM FORD OMBERES LEATHER",
+    category: "FOR HIM",
+    size: "100ML",
+    price: 5999,
+    image: "https://imgs.search.brave.com/eO31zA6RoBOt57XC4p65LurK7HKbKDrk6JYvC2w0jGs/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9wZXJm/dW1lYm94LmNvbS9j/ZG4vc2hvcC9wcm9k/dWN0cy94Yi5qcGc_/dj0xNTk1MDE1ODU1/JndpZHRoPTkwMA",
+    description: "Amazing Fragrance. For Him/ Gentlemen's.",
+    fullDescription: "👑TOM FORD 👑\n🦍OMBERES LEATHER 🦍\n🧩 100Ml\n🧩 PERFUME (ሽቶ)\n🧩 For Him/ Gentlemen's \n🧩 Amazing Fragrance \n⚡️FREE DELIVERY (ቤትዎ ድረስ በነፃ እናደርሳለን) \n🧩 PRICE :-5999 BIRR"
+  },
+  {
+    id: 'bvlgari-man-in-black',
+    name: "BVLGARI MAN IN BLACK",
+    category: "FOR HIM",
+    size: "100ML",
+    price: 6299,
+    image: "https://imgs.search.brave.com/AwdioMGtrCwoWaRB8IhICWbhJZUiMx3D8ZCPj5szXcU/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9zcGxh/c2hmcmFncmFuY2Uu/aW4vd3AtY29udGVu/dC91cGxvYWRzLzIw/MjQvMTEvQnZsZ2Fy/aS1NYW4tSW4tQmxh/Y2stQnktQnZsZ2Fy/aS1FRFAtUGVyZnVt/ZS53ZWJw",
+    description: "One of the Best Men's Perfume of The Year. Amazing Fragrance.",
+    fullDescription: "💣 BVLGARI💣\n🪵 MAN IN BLACK 🪵\n😍 One of the Best Men's Perfume of The Year\n🪵 100Ml\n🪵 PERFUME (ሽቶ)\n🪵 For Him/ Gentlemen's \n🪵 Amazing Fragrance \n🪵 Packed\n⚡️FREE DELIVERY (ቤትዎ ድረስ በነፃ እናደርሳለን) \n🪵 Price : 6299 Birr"
+  },
+  {
+    id: 'jean-paul-scandal',
+    name: "Jean Paul SCANDAL",
+    category: "FOR HIM",
+    size: "100ML",
+    price: 6299,
+    image: "https://i5.walmartimages.com/seo/Jean-Paul-Gaultier-Men-s-Scandal-Le-Parfum-EDP-Spray-3-4-oz-Fragrances-8435415065191_73741329-a003-4661-acf2-c66f610bd228.6104904b94e8275ac79e984bb1ca45e7.jpeg?odnHeight=573&odnWidth=573&odnBg=FFFFFF",
+    description: "Amazing Fragrance. For Men/ Gentlemen's (የወንዶች ሽቶ).",
+    fullDescription: "👑 Jean Paul\n👑 SCANDAL\n🔥 100 Ml\n👑 PERFUME (ሽቶ)\n👑 For Men/ Gentlemen's (የወንዶች ሽቶ)\n👑 Amazing Fragrance \n👑 Packed\n⚡️FREE DELIVERY (ቤትዎ ድረስ በነፃ እናደርሳለን) \n👑 PRICE :- 6299 BIRR"
+  },
+  {
+    id: 'chanel-bleu',
+    name: "BLEU De CHANEL",
+    category: "FOR HIM",
+    size: "100ML",
+    price: 6199,
+    image: "https://imgs.search.brave.com/G7DaGuGEslUazZdmErTK2Uyud4cR0Kj88ONGB6RWKgQ/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9waWN0/dXJlcy1ldGhpb3Bp/YS5qaWppc3RhdGlj/LmNvbS85MzE3MzIw/X016QXdMVEkyTmkx/a1l6TXhOMlE0WldJ/Mi53ZWJw",
+    description: "Best Men's Perfume of The Year. Amazing Fragrance.",
+    fullDescription: "💙 CHANEL 💙\n💙 BLEU De CHANEL\n😍 Best Men's Perfume of The Year\n💙 100Ml\n💙 PERFUME (ሽቶ)\n💙 For Him/ Gentlemen's (የወንዶች ሽቶ)\n💙 Amazing Fragrance \n💙 Packed\n💙 PRICE :- 6199 Birr\n⚡️FREE DELIVERY (ቤትዎ ድረስ በነፃ እናደርሳለን)"
+  },
+  {
+    id: 'dior-sauvage',
+    name: "DIOR Sauvage",
+    category: "FOR HIM",
+    size: "100ML",
+    price: 6199,
+    image: "https://imgs.search.brave.com/Ld63fJggltRwHxkGEdKagYmNtBoLU9X5RqSAtFhNPgQ/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pLmVi/YXlpbWcuY29tL2lt/YWdlcy9nL1NYMEFB/T1N3dnZ4bFRMbHUv/cy1sOTYwLndlYnA",
+    description: "Launched by the design house of christian Dior. Amazing Fragrance.",
+    fullDescription: "DIOR\n🧩Sauvage\n🧩 Launched by the design house of christian Dior\n🧩 Keeps you refreshing all day\n🧩 Increase attraction and skin friendly fregrance.\n🧩 Size 100 ML\n🧩 Amazing Fragrance \n🧩 Quality Guaranteed \n🧩 Long Lasting Perfume \n🧩 Packed\n⚡️FREE DELIVERY (ቤትዎ ድረስ በነፃ እናደርሳለን)\n🧩 Price 6199 Birr"
+  },
+  {
+    id: 'hugo-boss-perfume',
+    name: "HUGO BOSS",
+    category: "FOR HIM",
+    size: "150ML",
+    price: 6499,
+    image: "https://imgs.search.brave.com/JyeKeSfZjIqc304K1ZVeWbIdtr1OIQtPY59aWWUkTpw/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy84/Lzg1L0NIQU5FTF9O/bzVfcGFyZnVtLmpw/Zw",
+    description: "Best Men’s Perfume of The Year. Amazing Fragrance.",
+    fullDescription: "⭐️ HUGO BOSS⭐️\n😍 Best Men’s Perfume of The Year\n🪄 150Ml\n🪄 PERFUME (ሽቶ)\n🪄For Him/ Gentlemen's (የወንዶች ሽቶ)\n🪄Amazing Fragrance \n🪄 Packed\n🪄 PRICE :- 6499 Birr\n⚡️FREE DELIVERY (ቤትዎ ድረስ በነፃ እናደርሳለን)"
   }];
 
 export default function Shop() {
