@@ -103,12 +103,7 @@ export default function Home() {
               >
                 DISCOVER THE SCENT
               </Link>
-              <Link 
-                to="/shop" 
-                className="inline-block bg-surface/20 backdrop-blur-xl text-on-surface px-8 py-4 text-[11px] font-medium tracking-[0.2em] border border-primary/30 hover:bg-primary hover:text-surface transition-all duration-500 uppercase shadow-lg"
-              >
-                SHOP NOW
-              </Link>
+
             </div>
           </motion.div>
         </div>
